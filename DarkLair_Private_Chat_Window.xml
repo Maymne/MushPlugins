@@ -62,7 +62,7 @@ USAGE:
 	<trigger
     enabled="y"
 	regexp="y"
-    match="^(\S+)(?<!You) (\S+\s)?(\S+\s)?(\S+\s)?(tells you|replies) '(.*)"
+    match="^(\S+)(?<!You) (\S+\s)?(\S+\s)?(\S+\s)?(tells you|replies|whispers) '(.*)"
     script="chats"
     omit_from_output="y"
     sequence="100"
@@ -73,7 +73,7 @@ USAGE:
 	<trigger
     enabled="n"
 	regexp="y"
-    match="^(\S+)(?<!You) (\S+\s)?(\S+\s)?(\S+\s)?(tells you|replies) '(.*)"
+    match="^(\S+)(?<!You) (\S+\s)?(\S+\s)?(\S+\s)?(tells you|replies|whisper) '(.*)"
     script="chats"
     omit_from_output="y"
     sequence="100"
