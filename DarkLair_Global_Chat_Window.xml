@@ -82,10 +82,11 @@ USAGE:
     sequence="100"
     ></trigger>
 
+<!-- Parses 2 imm channels and cotterie talk Name:/-[Name] and -=Name=- -->
 	<trigger
     enabled="y"
 	regexp="y"
-    match="^(\-\[)?(\w+)(\]\-|\:) (.*)"
+    match="^(\-(\[|\=))?(\w+)((\]|\=)\-|\:) '(.*)'"
     script="chats"
     omit_from_output="y"
     sequence="100"
