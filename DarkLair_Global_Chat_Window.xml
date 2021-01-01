@@ -18,9 +18,9 @@
     language="Lua"
     purpose="Move global chat to a miniwindow"
     date_written="2020-02-28"
-    date_modified="2020-04-29"
+    date_modified="2020-01-01"
     requires="4.52"
-    version="2.0"
+    version="2.1"
     save_state="y"
     >
     
